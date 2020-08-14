@@ -1,0 +1,77 @@
+<meta charset='utf-8'>
+<link rel='stylesheet' type='text/css' href='siteapprentissagecode.css'>
+<title> site d'apprentissage code</title>
+<div id='bandeorange'> 
+	<div><img id='imagemenu' src="file:///C:/Users/claud/Pictures/Icone%20menu.png"></div>
+	<div id='barreshaut'>
+	   <div id='barreprochlesson'>
+		  <div id='tempscours'><img id='tempscoursh'src='file:///C:/Users/claud/Pictures/Icone%20horloge.png'><span id='textlesson'>Next virtual lesson: </span>  </div>
+		  <div id='tempsprochcours'> 6pm</div>
+	   </div>
+	   <div id='barrecherche'>
+		  <div id='barrerecherche'> 
+		  	<form id='formulaire'>
+		  		<input placeholder='Search something' type='pseudo' size='40'>
+		  	</form>
+		  </div>
+		  <div><img id='imageloupe' src='file:///C:/Users/claud/Pictures/Icone%20loupe.png'></div>
+	   </div>
+	</div>
+</div>
+<div id='textcomplet'>
+<div id='textmilieu'> Learn to code</div>
+<div id='textmilieu2'>easily with professionals.</div>
+</div>
+<div id='placementimage'><img id='illucentrale' src='file:///C:/Users/claud/Pictures/Illustration%20centrale.png'></div>
+<div id='menuresp' class='menuresp1'>
+	    <div><img id='imagemenu2' src='file:///C:/Users/claud/Pictures/Icone%20menu.png'></div>
+	    <div id='partnav'> Home</div>
+	    <div id='partnav'> Our team</div>
+	    <div id='partnav'> Our creations</div>
+	    <div id='partnav'> Contact</div>
+	    <div id='partnav'> Time slot </div>
+	    <div id='imgreseaux'><img id='imagereseaux' src='file:///C:/Users/claud/Pictures/Icones%20r%C3%A9seauc%20sociaux.png'></div>
+</div>
+<div id='bouttonsbas'>
+	<button id='btnbasg'><div id='bouttonbasg'> Book a time slot</div></button>
+	<button id='btnbasd'><div id='bouttonbasd'>More informations</div></button>
+</div>
+<img src='file:///C:/Users/claud/Pictures/Icone%20tchat.png' id='imgtchat'>
+<script src='jquery-3.5.1.js'></script>
+<script>
+$(document).ready(function(){
+       $('#imagemenu').click(function(){
+       	$('#imagemenu').css('transform','rotate(-360deg)')
+		$("#menuresp").css('display','block');
+		$('#bouttonsbas').css('transform','translateY(-670px)')
+		$('#imgtchat').css('transform','translateY(-670px)')
+
+})  
+      $('#imageloupe').click(function(e){
+	if($('input').val() !== ''){
+	var touche = $('input').val()
+	$("#textmilieu").text('Aucun résultat trouvé pour' + ' ' + "'" + touche + "'")
+	$('#textmilieu2').css('display','none')
+	$('#illucentrale').attr('src','file:///C:/Users/claud/Pictures/undraw_cancel_u1it.png');
+	$('#bouttonsbas').css('display','none');
+	$('#imgtchat').css('display','none');
+}
+	else if($('input').val() == ''){
+    $("#textmilieu").text('Learn to code')
+	$('#textmilieu2').css('display','block')
+	$('#illucentrale').attr('src', 'file:///C:/Users/claud/Pictures/Illustration%20centrale.png');
+	$('#bouttonsbas').css('display','block');
+	$('#imgtchat').css('display','block');
+
+	}
+})  
+      $('#imagemenu2').click(function(){
+      	$("#menuresp").css('display','none');
+		$('#bouttonsbas').css('transform','translateY(0px)')
+		$('#imgtchat').css('transform','translateY(0px)')
+
+      })
+
+    });
+
+</script>

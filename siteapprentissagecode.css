@@ -1,0 +1,181 @@
+
+#bandeorange {
+    height: 60px;
+	background-color:rgb(225, 152, 34);
+}
+#imagemenu {
+	padding: 15px;
+	padding-left: 85px;
+	height: 30px;
+	cursor: pointer;
+}
+#barreshaut {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+} 
+#tempscours {
+	position: relative;
+	bottom: 48px;
+	margin-right: 20px;
+	border-radius: 50px;
+	background-color: white;
+	padding: 7px;
+	padding-right: 50px;
+	font-family: 'Montserrat Medium';
+}
+#tempscoursh {
+	height: 17px;
+	padding-right: 10px;
+	
+}#tempsprochcours {
+    position: relative;
+    left: 190px;
+    position: absolute;
+    top: -40px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat Medium';
+}
+#textlesson {
+	position: relative;
+	bottom: 2px;
+}
+#barreprochlesson {
+	position: relative;
+	bottom: 4px;
+}
+#barrerecherche {
+	position: relative;
+	bottom: 52px;
+	border-radius: 50px;
+	background-color: white;
+	padding: 2px;
+	padding-right: 80px;
+	margin-right: 20px;
+	font-family: 'Montserrat Medium';
+}
+input {
+	border: none;
+	position:relative;
+	padding: 0px;
+	top:8px;
+	left:10px;
+	outline: none;
+}
+
+#menuresp {
+   background-color: black;
+   color: white;
+   width: 200px;
+   height:670px;
+   font-size: 20px;
+   text-align: center;
+   position:relative;
+   bottom: 447px;
+
+}
+.menuresp1 {
+	display: none;
+}
+.menuresp2 {
+	display: block;
+}
+#imagemenu2 {
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 45px;
+	cursor: pointer;
+}
+#partnav {
+	padding: 12px;
+	font-family: 'Montserrat Medium';
+}
+#imagereseaux {
+	height: 30px;
+	margin-top: 280px;
+	cursor: pointer;
+}
+#imageloupe {
+	height: 20px;
+	position: relative;
+	bottom: 86px;
+	left: 325px;
+	cursor: pointer;
+	padding: 6px;
+}#imageloupe:hover {
+	background-color: honeydew;
+	border-radius: 10px;
+}
+#textcomplet {
+	position:relative;
+	top: 50px;
+}
+#bouttonsbas {
+	display:block;
+	flex-direction: row;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+#btnbasg {
+	margin-right: 60px;
+	background-color: orange;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat Medium';
+	border-color: transparent;
+	border-radius: 100px;
+	outline: none;
+	cursor: pointer;
+
+}
+#btnbasd {
+	border-radius: 100px;
+	background-color: orange;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat Medium';
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#imgtchat {
+	height: 40px;
+	background-color: rgb(63, 61, 86);
+	padding: 10px;
+	border-radius: 20px;
+	float: right;
+	position: relative;
+	top: 90px;
+	right: 40px;
+	cursor: pointer;
+}
+#textmilieu {
+	font-family: 'Montserrat Bold', arial;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+#textmilieu2 {
+    font-family: 'Montserrat Bold', arial;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+#placementimage {
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+#illucentrale {
+	height: 250px;
+}
